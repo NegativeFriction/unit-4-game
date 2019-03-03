@@ -1,0 +1,70 @@
+body {
+  background-image: url("./../images/background.png");
+}
+
+.wrapper {
+  margin: 1rem !important;
+}
+
+.crystal-clicker {
+  padding: 1rem;
+  background-color: darkorange;
+  display: inline-block;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: "Varela Round", sans-serif;
+}
+
+.instructions {
+  color: green;
+  background-color: pink;
+  height: auto;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+.random-number {
+  background-color: green;
+  font-size: 30px;
+  color: purple;
+  margin: 1rem;
+}
+
+.wins-and-losses {
+  margin: 1rem;
+  background-color: skyblue;
+}
+
+#wins {
+  margin-top: 1rem;
+}
+
+.gem {
+  width: 20%;
+  height: 100px;
+  float: left;
+  margin: 2%;
+}
+
+#losses {
+  margin-top: 2rem;
+}
+
+.score-header {
+  color: white;
+  background-color: teal;
+  width: 50%;
+  margin: 1rem;
+  padding: 1rem;
+}
+#total-score {
+  color: white;
+  background-color: teal;
+  width: 50%;
+  margin: 1rem;
+  font-size: 50px;
+  padding: 1rem;
+}
