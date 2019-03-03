@@ -56,14 +56,14 @@ body {
 .score-header {
   color: white;
   background-color: teal;
-  width: 50%;
+  width: 80%;
   margin: 1rem;
   padding: 1rem;
 }
 #total-score {
   color: white;
   background-color: teal;
-  width: 50%;
+  width: 80%;
   margin: 1rem;
   font-size: 50px;
   padding: 1rem;

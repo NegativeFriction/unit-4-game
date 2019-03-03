@@ -15,6 +15,10 @@
       href="https://fonts.googleapis.com/css?family=Varela+Round"
       rel="stylesheet"
     />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Crystal Clicker</title>
   </head>
@@ -50,9 +54,7 @@
           </div>
 
           <div class="row">
-            <div class="col-6 random-number" id="random-number">
-              A Random Number Goes Here
-            </div>
+            <div class="col-6 random-number" id="random-number"></div>
             <div class="col-3 wins-and-losses">
               <div id="wins">Wins: 0</div>
               <div id="losses">Losses: 0</div>
@@ -66,24 +68,28 @@
                   alt="gem1"
                   class="gem"
                   id="gem1"
+                  value="1"
                 />
                 <img
                   src="./assets/images/gem2.png"
                   alt="gem2"
                   class="gem"
                   id="gem2"
+                  value="2"
                 />
                 <img
                   src="./assets/images/gem3.jpg"
                   alt="gem3"
                   class="gem"
                   id="gem3"
+                  value="3"
                 />
                 <img
                   src="./assets/images/gem4.jpg"
                   alt="gem4"
                   class="gem"
                   id="gem4"
+                  value="4"
                 />
               </div>
             </div>
@@ -97,12 +103,12 @@
           <div class="score-header">
             Your total score is:
           </div>
-          <div id="total-score">
-            0
-          </div>
+          <div id="total-score">0</div>
         </div>
         <div class="col-6"></div>
       </div>
     </div>
+
+    <script src="assets/javascript/game.js"></script>
   </body>
 </html>
